@@ -7,6 +7,9 @@ Retrieves the effective password and account lockout policies
 configured on the system and exports them for baseline comparison,
 audit, and compliance review.
 
+# Note: net accounts reflects the effective local password and lockout policy
+# applied to this system (local or via GPO)
+
 This script is read-only and does not modify any system settings.
 
 CIS Benchmark Guidance (High Level):
